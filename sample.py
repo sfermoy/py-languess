@@ -13,11 +13,14 @@ def main():
     # English
     print lg.getLang("This is just a bloody text")
     # Spanish
-    print lg.getLang("Pues esto es un texto en espa�ol")
+    print lg.getLang("Pues esto es un texto en español")
     # Guarani
     print lg.getLang("Mba'eteko chera'a mba'eichapa reiko?")
     # I just know those three langs, sorry ;)
-
+    # Polish
+    print lg.getLang("zdobyła srebrny medal poprawiając swoim wynikiem rekord")
+    #Lithuanian
+    print lg.getLang(" konstitucijos straipsnis dėl SSKP vadovaujančio vaidmens valstybėje. Politinės sistemos demokratizavimas")
 
 if __name__ == "__main__":
     main()
